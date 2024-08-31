@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import AppHeader from './components/Header';
-import AppHero from './components/Carousel';
+import AppCarousel from './components/Carousel';
+import AppFooter from './components/Footer';
+import AppProductsLinks from './components/ProductsLinks';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
         <AppHeader />
       </header>
       <main>
-        <AppHero />
+        <AppCarousel />
+        <AppProductsLinks/>
+        <AppFooter/>
       </main>
     </div>
   );

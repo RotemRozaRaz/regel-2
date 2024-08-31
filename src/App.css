@@ -79,7 +79,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #f41a1a;
+  color: #A2CA71;
 }
 
 ul,
@@ -376,6 +376,13 @@ textarea {
   color: #e6e6e6;
 }
 
+.subtitle {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+
 #header {
   padding: 15px 0;
   position: fixed;
@@ -471,6 +478,7 @@ textarea {
 .hero-block {
   margin: 65px 0 0;
 }
+
 
 .hero-block .carousel-item:before {
   content: '';
